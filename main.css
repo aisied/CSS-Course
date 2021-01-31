@@ -1,19 +1,20 @@
 
 
 #product-overview {
-    background-image: url("freedom.jpg");
-    background-size: cover;
-    background-position: 10% 20%;
-    background-repeat: no-repeat;
+     background: linear-gradient(to bottom ,rgba(80,68,18,0.8) 50%,transparent), url("./images/freedom.jpg") left 10% bottom 20%/cover no-repeat, #ff1b68;
+    /*background-size: cover;
+    background-position: left 10% bottom 20%; 
+     background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box; */
+    /*background-image: linear-gradient(180deg,red 50%,blue 10%,yellow);*/
+    /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%,red,blue,green); */
     width: 100%;
     height: 528px;
     padding: 10px;
     margin-top: 43px;
-<<<<<<< HEAD
-    position: relative; 
-=======
-    position: relative;
->>>>>>> 602b5b9cd2dd91a153c14384081f036184bd1fdd
+    /* border: 5px dashed red; */
+    position: relative;   
 }
 
 .section-title {
@@ -24,11 +25,7 @@
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
-<<<<<<< HEAD
-    position:absolute;
-=======
     position: absolute;
->>>>>>> 602b5b9cd2dd91a153c14384081f036184bd1fdd
     bottom: 5%;
     left: 3%;
 }
@@ -120,6 +117,7 @@
     border: 2px solid #424242;
     border-radius: 50%;
     margin: auto;
+    padding: 20px;
 }
 
 .key-feature__description {
